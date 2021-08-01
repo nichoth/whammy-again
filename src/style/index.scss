@@ -10,6 +10,36 @@ img {
     width: 100%;
     margin: 0 auto;
     // min-width: 20rem;
+
+    &.link {
+        a {
+            img {
+                position: relative;
+                height: 3rem;
+                top: 0.6rem;
+            }
+
+            background-color: #EFE858;
+            color: black;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding: 1rem;
+            border: 2px gray;
+            border-style: double;
+            display: block;
+            text-align: center;
+            font-size: 1.6rem;
+            padding-top: 0;
+
+            &:hover {
+                filter: drop-shadow(2px 4px 6px black);
+                border-color: black;
+                text-decoration: underline;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 800px) {
