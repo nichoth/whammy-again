@@ -1,4 +1,19 @@
 body {
-    background-color: pink;
+    background-color: #EFE858;
 }
 
+img {
+    max-width: 100%;
+}
+
+.section {
+    width: 100%;
+    margin: 0 auto;
+    // min-width: 20rem;
+}
+
+@media screen and (min-width: 800px) {
+    .section {
+        width: 50%;
+    }
+}

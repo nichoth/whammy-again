@@ -4,7 +4,7 @@
         "build": "npm run copy && npm run sass",
         "sass": "sass src/style/index.scss public/style.css",
         "sass-watch": "sass --watch src/style/index.scss public/style.css",
-        "copy": "mkdir -p public && cp src/index.html public"
+        "copy": "mkdir -p public && cp src/index.html public && mkdir -p public/img && cp src/img/* public/img"
     },
     "devDependencies": {
         "concurrently": "^6.2.0",
