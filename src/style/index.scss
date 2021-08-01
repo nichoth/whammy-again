@@ -15,5 +15,14 @@ img {
 @media screen and (min-width: 800px) {
     .section {
         width: 50%;
+
+        &.play {
+            text-align: center;
+            img {
+                &:hover {
+                    border-bottom: 4px solid black;
+                }
+            }
+        }
     }
 }
