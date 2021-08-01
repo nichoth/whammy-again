@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "start": "npm run build && concurrently --kill-others \"ecstatic public\" \"npm run sass-watch\"",
+        "build": "npm run copy && npm run sass",
+        "sass": "sass src/style/index.scss public/style.css",
+        "sass-watch": "sass --watch src/style/index.scss public/style.css",
+        "copy": "mkdir -p public && cp src/index.html public"
+    },
+    "devDependencies": {
+        "concurrently": "^6.2.0",
+        "ecstatic": "^4.1.4",
+        "sass": "^1.37.0"
+    }
+}
+
