@@ -12,12 +12,11 @@ img {
     // min-width: 20rem;
 
     &.link {
-        width: clamp(42%, 50%, 50%);
+        // width: clamp(42%, 50%, 50%);
         min-width: 30rem;
 
         a {
             filter: drop-shadow(2px 4px 6px gray);
-            min-width: 30rem;
             font-size: max(2vw, 1rem);
 
             img {
