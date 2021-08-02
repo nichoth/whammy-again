@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "npm run build && concurrently --kill-others \"ecstatic public\" \"npm run sass-watch\"",
+        "start": "npm run build && concurrently --kill-others \"npx ecstatic public\" \"npm run sass-watch\"",
         "build": "npm run copy && npm run sass",
         "sass": "sass src/style/index.scss public/style.css",
         "sass-watch": "sass --watch src/style/index.scss public/style.css",
