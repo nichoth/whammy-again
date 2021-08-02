@@ -16,6 +16,16 @@ img {
     text-align: center;
     // min-width: 20rem;
 
+    &.play {
+        a {
+            img {
+                &:hover {
+                    border-bottom: 4px solid black;
+                }
+            }
+        }
+    }
+
     &.link {
         // width: clamp(42%, 50%, 50%);
         // min-width: 30rem;
